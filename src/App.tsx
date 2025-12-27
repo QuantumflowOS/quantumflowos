@@ -1,9 +1,9 @@
-import QuantumBIOS from "./components/QuantumBIOS"
+import OS from "./OS"
 
 export default function App() {
   return (
-    <div style={{ background: "#000", color: "#0ff", minHeight: "100vh" }}>
-      <QuantumBIOS />
+    <div style={{ width: "100vw", height: "100vh", background: "black" }}>
+      <OS />
     </div>
   )
 }
